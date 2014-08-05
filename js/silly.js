@@ -1,7 +1,7 @@
 var SILLY = (function(module) {
 
 	module.DoIt = function(resultObject) {
-		resultObject.prepend('Hello World! ' + Date() + '<br/>');
+		resultObject.prepend(Date() + '<br/>');
 	};
 	
 	return module;
